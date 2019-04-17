@@ -6,7 +6,7 @@ Mampiasa opencv sy ny fichier haar cascade hita ao amin'ny github ny opencv
 #importena ny librairie ampiasaina, eto dia opencv fa rehefa installer lay izy dia lasa cv2 no anarany
 import cv2
 
-tarehy_xml_url = 'https://raw.githubusercontent.com/octavebenil/opencv/master/datasets/haarcascade_frontalface_alt2.xml'
+tarehy_xml_url = '../datasets/haarcascade_frontalface_alt2.xml'
 
 tarehy_cascade = cv2.CascadeClassifier(tarehy_xml_url)
 
