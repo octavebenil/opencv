@@ -35,10 +35,8 @@ ao amin'ny sary. Amin'ny alalan'ireo valeurs 04 ireo dia afaka manao sary rectan
 #importena ny librairie ampiasaina, eto dia opencv fa rehefa installer lay izy dia lasa cv2 no anarany
 import cv2
 
-tarehy_xml_url = '../datasets/haarcascade_frontalface_alt2.xml'
-
 #Dingana 1 : Chargena ilay fichier cascade
-tarehy_cascade = cv2.CascadeClassifier(tarehy_xml_url)
+tarehy_cascade = cv2.CascadeClassifier('../datasets/haar/haarcascade_frontalface_alt2.xml')
 
 """
 Dingana faha 2 :
